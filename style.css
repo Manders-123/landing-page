@@ -3,7 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .header {
@@ -68,9 +68,49 @@ a {
     color: #E5E7EB;
 }
 
+.body-two {
+    text-align: center;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
 
 .benefits {
     width: 200px;
     height: 200px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 100px;
+}
+
+
+.benefits {
+    width: 100px;
+    height: 100px;
+}
+
+.body-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: bold;
 }
 
