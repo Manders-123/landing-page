@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;  
     justify-content: space-between;
-    
+    max-width: 1500px;
 }
 
 .header {
@@ -124,6 +124,10 @@ a {
     background-color: #E5E7EB;
 }
 
+.quote-container {
+
+}
+
 .quote {
     font-size: 26px;
     font-style: italic;
@@ -135,6 +139,7 @@ a {
     font-size: 20px;
     font-weight: bold;
     display: flex;
+    
 }
 
 .body-four {
