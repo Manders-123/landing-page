@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;  
     justify-content: space-between;
+    
 }
 
 .header {
@@ -12,6 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 20px 190px;
 }
 
 .right {
@@ -40,6 +42,8 @@ a {
 .body-one {
     display: flex;
     background-color: #1F2937;
+    padding: 100px 190px;
+    gap: 100px;
 }
 
 .container {
@@ -47,7 +51,7 @@ a {
 }
 
 .cuddle {
-    width: 300px;
+    width: 500px;
     height: 200px;
 }
 
@@ -55,6 +59,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 5px;
 }
 
 .sign-up {
@@ -66,6 +71,7 @@ a {
     width: 150px;
     height: 40px;
     border: 3px solid #F9FAF8;
+    margin-top: 15px;
 }
 
 .text {
